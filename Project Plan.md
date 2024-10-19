@@ -47,3 +47,58 @@ We are a team of three members.
 ## Final Deliverables
 - Functional chat app with essential features.
 - App documentation and a brief demo presentation.
+
+## Project Structure
+
+The project follows a well-organized structure to maintain clean code and team collaboration.
+
+```
+iOSChatApp/
+│
+├── iOSChatApp.xcodeproj         # Xcode project file
+├── README.md                    # Project description and guidelines
+├── iOSChatApp/
+│   ├── AppDelegate.swift        # Handles app lifecycle events
+│   ├── SceneDelegate.swift      # Handles UI session lifecycle events (iOS 13+)
+│   ├── ContentView.swift        # Main entry point for SwiftUI (if using SwiftUI)
+│   ├── Info.plist               # App configuration file
+│   ├── Assets.xcassets/         # Image and color assets
+│   ├── LaunchScreen.storyboard  # Launch screen configuration
+│   │
+│   ├── Controllers/             # View Controllers for handling screen logic
+│   │   ├── LoginViewController.swift
+│   │   ├── ChatViewController.swift
+│   │   ├── ProfileViewController.swift
+│   │   ├── RegistrationViewController.swift
+│   │
+│   ├── Views/                   # Views for SwiftUI-based projects or separate UI files
+│   │   ├── ChatMessageView.swift
+│   │   ├── LoginView.swift
+│   │   ├── ProfileView.swift
+│   │   ├── RegistrationView.swift
+│   │
+│   ├── Models/                  # Models for your app’s data
+│   │   ├── UserModel.swift      # Data model for user info
+│   │   ├── ChatModel.swift      # Data model for chat messages
+│   │   ├── ProfileModel.swift   # Data model for user profiles
+│   │
+│   ├── Services/                # Handles backend services like Firebase
+│   │   ├── AuthService.swift    # Authentication service logic
+│   │   ├── ChatService.swift    # Chat-related backend logic
+│   │   ├── UserService.swift    # User profile and data services
+│   │
+│   ├── Utilities/               # Helper functions and reusable utilities
+│   │   ├── Constants.swift      # Contains app-wide constants (e.g., colors, fonts)
+│   │   ├── Extensions.swift     # Common Swift extensions for reusability
+│   │   ├── Validator.swift      # Utility to validate form inputs
+│   │
+│   ├── Resources/               # General resources like JSON files or test data
+│   │   ├── sampleData.json
+│   │   ├── AppStrings.swift     # Localized strings for the app
+│   │
+│   ├── Tests/                   # Unit and UI tests
+│       ├── iOSChatAppTests/     # Unit test cases
+│       ├── iOSChatAppUITests/   # UI test cases
+│
+└── .gitignore                   # Files and directories to ignore in Git
+```
