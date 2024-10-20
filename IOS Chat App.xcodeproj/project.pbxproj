@@ -35,16 +35,6 @@
 			path = "IOS Chat App";
 			sourceTree = "<group>";
 		};
-		37824A752CC399E900D6752F /* IOS Chat AppTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "IOS Chat AppTests";
-			sourceTree = "<group>";
-		};
-		37824A7F2CC399E900D6752F /* IOS Chat AppUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "IOS Chat AppUITests";
-			sourceTree = "<group>";
-		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,8 +66,6 @@
 			isa = PBXGroup;
 			children = (
 				37824A642CC399E700D6752F /* IOS Chat App */,
-				37824A752CC399E900D6752F /* IOS Chat AppTests */,
-				37824A7F2CC399E900D6752F /* IOS Chat AppUITests */,
 				37824A632CC399E700D6752F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -130,9 +118,6 @@
 			dependencies = (
 				37824A742CC399E900D6752F /* PBXTargetDependency */,
 			);
-			fileSystemSynchronizedGroups = (
-				37824A752CC399E900D6752F /* IOS Chat AppTests */,
-			);
 			name = "IOS Chat AppTests";
 			packageProductDependencies = (
 			);
@@ -152,9 +137,6 @@
 			);
 			dependencies = (
 				37824A7E2CC399E900D6752F /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				37824A7F2CC399E900D6752F /* IOS Chat AppUITests */,
 			);
 			name = "IOS Chat AppUITests";
 			packageProductDependencies = (
